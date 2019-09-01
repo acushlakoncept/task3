@@ -87,14 +87,43 @@ header {
 
 .big-hero {
     height: 85vh;
-    background-image: linear-gradient(
-        to left bottom,
-        rgba(255, 255, 255, 0.6), 
-        rgba(123, 31, 162, 0.6)) , 
+    background-image: 
         url(../img/ancora-home_big.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
+}
+
+.big-hero--content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.big-hero--content h2 {
+    color: #fff ;
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+.big-hero--content p {
+    color: #fff;
+    background-color: #441558;
+    padding: 1.5rem;
+    font-size: 2rem;
+    border-radius: .3rem;
+}
+
+.big-hero--content h3 {
+    color: #441558;
+    background-color: #fff;
+    padding: 1.5rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
 }
 
 .heading-primary {
@@ -207,6 +236,7 @@ APPLY SECTION
     padding: 1.2rem;
     border-radius: .8rem;
     margin-left: 6rem;
+    cursor: pointer;
 }
 
 
